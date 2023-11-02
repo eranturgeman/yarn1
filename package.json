@@ -1,0 +1,12 @@
+{
+  "name": "yarn1",
+  "version": "1.0.0",
+  "description": "yarn 1 project",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "minimist": "1.2.5",
+    "tough-cookie": "2.5.0"
+  }
+}
