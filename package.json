@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "minimist": "1.2.5",
-    "tough-cookie": "2.5.0"
+    "minimist": "1.2.6",
+    "tough-cookie": "4.1.3"
   }
 }
