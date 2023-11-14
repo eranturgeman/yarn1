@@ -4,9 +4,9 @@
   "description": "yarn 1 project",
   "main": "index.js",
   "license": "MIT",
-  "private": false,
   "dependencies": {
     "minimist": "1.2.5",
     "tough-cookie": "2.5.0"
-  }
+  },
+  "packageManager": "yarn@3.6.1"
 }
