@@ -64,7 +64,7 @@
       # 2. The `installCommand` variable isn't set in your frogbot-config.yml file.
       #
       # The command that installs the project dependencies (e.g "nuget restore")
-        - installCommand: "yarn install --mode=update-lockfile"
+        - installCommand: "yarn install --ignore-scripts --non-interactive --silent"
 
       # [Default: root directory]
       # List of relative path's to the projects directories in the git repository
