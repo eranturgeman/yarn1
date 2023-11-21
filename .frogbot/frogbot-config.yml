@@ -58,13 +58,13 @@
       # minSeverity: ""
 
       # List of subprojects / project dirs inside the Git repository
-      #projects:
+      projects:
       # [Mandatory if the two conditions below are met]
       # 1. The project uses yarn 2, NuGet or .NET Core to download its dependencies
       # 2. The `installCommand` variable isn't set in your frogbot-config.yml file.
       #
       # The command that installs the project dependencies (e.g "nuget restore")
-      #  - installCommand: "yarn install --mode=update-lockfile"
+        - installCommand: "yarn install --ignore-scripts"
 
       # [Default: root directory]
       # List of relative path's to the projects directories in the git repository
@@ -81,7 +81,7 @@
 
       # [Optional]
       # Name of a Virtual Repository in Artifactory to resolve (download) the project dependencies from
-      #    repository: "default-npm-remote"
+          repository: "default-npm-remote"
 
     # JFrog Platform parameters
     jfrogPlatform:
