@@ -1,0 +1,5 @@
+version: 1
+type: yarn
+resolver:
+    repo: default-npm-remote
+    serverId: eranteco
